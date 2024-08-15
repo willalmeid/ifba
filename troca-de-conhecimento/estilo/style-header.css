@@ -1,0 +1,138 @@
+/* para invalidar alguma pripriedade de do frameWork: propriedade:valor !impoant */
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Inter:wght@200;300;400;500&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+header {
+    background-color: #24252a;
+    /* box-shadow: 0px 3px 10px #464646; */
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 6rem;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo h1 {
+    color: white;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+}
+
+.nav-list ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.nav-item {
+    margin: 0 15px;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 1.15rem;
+    color: white;
+    font-weight: 400;
+}
+
+.shearch {
+    text-decoration: none;
+    border: none;
+    font-size: 1.15rem;
+    color: white;
+    background-color: #24252a;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.shearch-bar {
+    width: 30%;
+    margin: auto;
+    padding: 15px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.shearch-bar input {
+    width: 400px;
+    height: 2rem;
+    padding: 2px;
+    text-align: center;
+    font-size: 1.1rem;
+    border-radius: 15px;
+    border: 1px solid black;
+}
+
+.shearch-bar button {
+    height: 35px;
+    color: white;
+    padding: 5px;
+    background-color: #25a25a;
+    border: 1px solid #25a25a;
+    border-radius: 5px;
+}
+
+.shearch-click {
+    display: none;
+}
+
+.usuario button {
+    max-width: 50px;
+    max-height: 50px;
+    color: transparent;
+    border: none;
+    border-radius: 50%;
+}
+
+.usuario img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 50%;
+}
+
+.usuario-click {
+    display: none;
+}
+
+.open {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 110px;
+    right: 60px;
+    background-color: rgba(255, 255, 255, 0.6);
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+}
+
+.open a {
+    text-decoration: none;
+    color: #24252a;
+    font-size: 1.2rem;
+    padding: 8px;
+}
+
+#logout:hover {
+    text-decoration: underline;
+    color: blue;
+}
+

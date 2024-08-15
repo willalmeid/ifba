@@ -1,0 +1,198 @@
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    color: white;
+    background-color: black;
+}
+
+main {
+    width: 100%;
+    height: auto;
+    padding: 20px 0; 
+    background-color: black;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.inicial {
+    width: 100%;
+    height: 400px;
+    padding: 20px;
+    margin: 20px 0;
+    background: transparent url(../imagens/imagem-fundo.jpg) no-repeat center center;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.text {
+    width: 55%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.text h6 {
+    font-size: 4rem;
+    padding: 15px;
+    margin-bottom: 50px;
+}
+
+.text p {
+    font-size: 2rem;
+    padding: 15px;
+    margin-left: 15px;
+}
+
+.container {
+    width: 80%;
+    min-height: 600px;
+    padding: 20px;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.inside-container {
+    height: auto;
+    padding: 10px;
+    background-color: rgba(128, 128, 128, 0.181);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: minmax(50px, auto);
+    grid-gap: 10px;
+    grid-template-areas: 
+    'box-1 box-1 box-1' 
+    ;
+}
+
+h3 {
+    font-size: 5rem;
+    font-weight: bolder;
+}
+
+h4 {
+    padding: 50px 0;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: rgb(229, 9, 20);
+    grid-area: box-1;
+    align-self: center;
+    justify-self: center;
+}
+
+.box {
+    width: auto;
+    background-color: rgba(255, 0, 0, 0.200);
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.box h5 {
+    font-size: 2rem;
+    padding: 10px 0;
+}
+
+img {
+    width: 90%;
+    height: 450px;
+    padding: 10px 0;
+    display: inline;
+}
+
+table {
+    width: 80%;
+    margin: 50px;
+    border: 1px white solid;
+}
+
+tr {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+td {
+    width: auto;
+    height: auto;
+    text-align: center;
+}
+
+.vermais {
+    color: red;
+    background-color: black;
+}
+
+.vermais:hover {
+    color: black;
+    background-color: red;
+    box-decoration-break: pointer;
+}
+
+form {
+    margin: 5px;
+}
+
+.final {
+    width: 100%;
+    height: 400px;
+    padding: 20px;
+    margin: 0px 0;
+    background: transparent url(../imagens/fundo-3.png) no-repeat center center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.final #fundo {
+    background-color: rgba(0, 0, 0, 0.300);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 100px;
+}
+
+#fundo h2 {
+    font-size: 3rem;
+}
+
+#fundo p {
+    margin: auto;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 400;
+}
+
+i {
+    padding: 4px;
+    width: 100px;
+    height: 20px;
+    box-sizing: border-box;
+}

@@ -1,0 +1,54 @@
+body {
+	font-family: Verdana, Helvetica, sans-serif;
+}
+
+form {
+	background-color: white;
+	border-style: solid;
+	width: 80%;
+	height: 200px;
+	margin: auto; /* centraliza */
+}
+
+label {
+	vertical-align:middle;
+	/* centraliza os campos */
+	float: left;
+	width: 20em;
+	margin-right: 1.5em;
+	margin-left: 90px;
+	 
+}
+
+#botoes{
+	text-align:center;
+	padding-top: 20px;
+	width: 40%;
+	padding-left:30%;
+}
+
+input,select,textarea{
+	color: black;
+	border: 1px solid;
+	width: 40%;
+	font-size:16px;
+}
+
+table {
+	border: 1px solid #98FB98; /* Cria a borda externa */
+	border-spacing: 0px; /* Espaçamento entre as células*/
+	margin: auto;
+}
+
+table td, th {
+	border: 1px solid #98FB98; /* Cria a borda das células */ 
+	padding: 10px; /* Espaço interno dos objetos */
+	
+	/* Existem parâmetros de alinhamento dentro da tabela */
+	text-align: center;
+	vertical-align: middle; /* top, bottom ou middle*/
+}
+
+caption {
+	font-weight: bold;
+}

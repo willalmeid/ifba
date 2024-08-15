@@ -1,0 +1,146 @@
+
+html {
+    background-color: black;
+    color: white;
+}
+
+section {
+    width: 60%;
+    margin: auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile {
+    width: 90%;
+    padding: 10px;
+    font-size: 1.1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.profile img {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.profile-name {
+    font-size: 1.5rem;
+    font-weight: bolder;
+    padding: 10px;
+}
+
+.profile-user {
+    color: rgba(255, 255, 255, 0.8);
+    font-weight: normal;
+    font-size: 1.3rem;
+    padding: 10px;
+}
+
+.profile .profile-user {
+    display: flex;
+    flex-direction: row;
+}
+
+.profile .profile-user ul {
+    list-style: none;
+    display: flex;
+}
+
+.profile-info-adicionais ul {
+    list-style: none;
+    margin: 50px 0px;
+}
+
+.my-posts {
+    width: 90%;
+    height: auto;
+    padding: 0px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.my-posts a {
+    text-decoration: none;
+    color: white;
+}
+
+.box {
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 5px 0px 10px rgb(255, 255, 255, 0.08) ;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.img-perfil {
+    width: 10%;
+}
+
+.img-perfil img {
+    width: 50px;
+    height: 50px;
+    margin: 10px auto;
+    background-color: white;
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+}
+
+.box-postagem {
+    width: 87%;
+    display: flex;
+    flex-direction: column;
+}
+
+.inf-user {
+    height: 50px;
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.inf-user ul {
+    display: flex;
+    list-style: none;
+}
+
+.inf-user ul .title-name {
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.inf-user ul .user-data {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.post-text {
+    margin: 10px 0px;
+    display: flex;
+    align-items: center;
+}
+
+.post-img {
+    margin: 20px 0px;
+}
+
+.post-img img {
+    width: 95%;
+    /* height: 95%; */
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+}

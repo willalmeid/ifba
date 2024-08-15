@@ -1,0 +1,40 @@
+.container-header {
+    height: 150px;
+    color: white;
+    background-color: darkgoldenrod;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-header-name {
+    height: 85%;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-header-botao {
+    height: 15%;
+    width: 100%;
+    
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+a {
+    text-decoration: none;
+    text-transform: none;
+}
+
+span {
+    color: black;
+    padding: 30px 40px;
+    text-decoration: none;
+}
+
+span:hover {
+    color: white;
+}
