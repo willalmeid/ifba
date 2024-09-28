@@ -6,3 +6,6 @@ Esse curso abordou as seguintes tecnologias:
 - HTML e CSS
 - PHP
 - SQL
+
+## Licença 📃
+Esse projeto está sob a licença MIT.
