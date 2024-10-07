@@ -9,4 +9,4 @@ Esse curso abordou as seguintes tecnologias:
 - C++
 
 ## Licença 📃
-Esse projeto está sob a licença MIT.
+Esse repositório está sob a licença MIT.
